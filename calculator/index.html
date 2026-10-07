@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Финансовый калькулятор</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4f6f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 40px 20px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <financial-calculator></financial-calculator>
+
+    <button id="button"
+            onclick="removeCalculator()"
+            style="background: rgb(165, 148, 199); border-radius: 16px; height: 30px; width: 270;">
+        Удалить калькулятор
+    </button>
+    <button id="demo" style="background: rgb(60, 129, 159); border-radius: 16px; height: 30px; width: 270;">
+        Изменить данные
+    </button>
+    <script src="./script.js"></script>
+</body>
+</html>
